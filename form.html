@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="./index.html">Biography</a></li>
+        <li><a href="./">Form</a></li>
+        <li><a href="./table.html">Table</a></li>
+        <li><a href="./media.html">Media</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <h1 class="school">AltSchool Africa</h1>
+    <h2 class="school">Signup</h2>
+    <p class="paragraph">Take the next steps to apply at AltSchool Africa</p>
+
+    <div class="containers">
+        <form>
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" required />
+            </div>
+
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" required />
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" required>
+                    <option value="" disabled selected>Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email" />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="08100000000" required />
+            </div>
+
+            <div class="form-group">
+                <label for="countries">Country</label>
+                <select name="countries" id="countries" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="US">United States</option>
+                    <option value="GH">Ghana</option>
+                    <option value="SA">South Africa</option>
+                    <option value="KE">Kenya</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="state">State/City of Residence</label>
+                <input type="text" id="city" name="city" placeholder="Enter your state of residence" required />
+            </div>
+
+            <div class="form-group">
+                <label for="source">How did you hear about us?</label>
+                <select name="source" id="source">
+                    <option value="" disabled selected>Select source</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="google">Google Search</option>
+                    <option value="youtube">YouTube</option>
+                    <option value="github">GitHub</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+            </div>
+
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">Go to the Top</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

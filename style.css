@@ -1,0 +1,152 @@
+* {
+  background-color: antiquewhite;
+  margin-inline: 5px;
+}
+.menu {
+  display: inline-block;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  display: inline;
+  list-style-type: none;
+  margin-inline: 5px;
+}
+.menu ul li a {
+  text-decoration: none;
+  border: 1px solid none;
+  border-radius: 2px;
+  background-color: brown;
+  color: aqua;
+  padding-block: 5px;
+  padding-inline: 5px;
+}
+.menu ul li a:hover {
+  background-color: rgb(187, 185, 195);
+  color: black;
+  border: 1px solid none;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  list-style-type: none;
+  margin-block: 8px;
+  margin-inline: 5px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  border: 1px solid none;
+  border-radius: 2px;
+  background-color: brown;
+  color: aqua;
+  padding-block: 2px;
+  padding-inline: 7px;
+}
+.navbar ul li a:hover {
+  background-color: rgb(56, 18, 224);
+  color: white;
+  border: 1px solid none;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: blue;
+  text-decoration: solid;
+}
+p {
+  color: rgb(41, 36, 36);
+}
+.school {
+  color: #333;
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+td {
+  vertical-align: top;
+}
+.mean {
+  text-align: center;
+  color: #4caf50;
+}
+.paragraph {
+  text-align: center;
+  font-size: 1.1em;
+}
+.containers {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+select {
+  width: 20%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.form-group {
+  margin-bottom: 15px;
+}
