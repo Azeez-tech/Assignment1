@@ -164,9 +164,13 @@ a{
 .image{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 15px;
+  gap: 10px;
 }
 .cap{
   display: flex;
   flex-direction: column;
+}
+address{
+  border: 1px solid;
+  background-color: #4caf50;
 }
