@@ -11,7 +11,8 @@
 .menu ul li {
   display: inline;
   list-style-type: none;
-  margin-inline: 5px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .menu ul li a {
   text-decoration: none;
@@ -149,4 +150,23 @@ input[type="submit"]:hover {
 }
 .form-group {
   margin-bottom: 15px;
+}
+.footer a{
+  border: 1px solid none;
+  background-color: royalblue;
+  color: black
+}
+a{
+  padding-inline: 15px;
+  padding-block: 5px;
+  text-decoration: none;
+}
+.image{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.cap{
+  display: flex;
+  flex-direction: column;
 }
